@@ -5,7 +5,7 @@ function openpopup() {
 function closePopup() {
   popup.classList.remove("openpopup");
 }
-// to makea popup so when you click "show more" it is going to pop up a small window showing you more details about the product
+// to make a popup so when you click "show more" it is going to pop up a small window showing you more details about the product
 
 const postSection = document.querySelector('#posts');
 const postTemplate = document.querySelector('#post-template');
