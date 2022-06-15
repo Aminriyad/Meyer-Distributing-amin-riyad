@@ -33,7 +33,7 @@ async function getData() {
           const postImg = newPost.querySelector('.img');
           const postDescription = newPost.querySelector('.description');
           const postrate = newPost.querySelector('.rate')
-          // throw 'Image Fetch Error';
+
 
           postImg.src = URL.createObjectURL(blob);
           postTitle.innerText = title;
